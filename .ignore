@@ -1,0 +1,24 @@
+# Anchor / Rust
+.anchor/
+target/
+
+# Program Keypairs (SECURITY)
+**/target/deploy/*.json
+**/target/deploy/*-keypair.json
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
